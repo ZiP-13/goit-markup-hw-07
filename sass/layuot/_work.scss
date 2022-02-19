@@ -1,10 +1,10 @@
-.work-list {
+.work__list {
   display: flex;
 }
-.work-tumb {
+.work__tumb {
   position: relative;
 }
-.work-tumb-text {
+.work__text {
   display: flex;
   position: absolute;
   bottom: 0;
@@ -19,6 +19,6 @@
   justify-content: center;
   align-items: center;
 }
-.work-item + .work-item {
+.work__item + .work__item {
   margin-left: 30px;
 }
