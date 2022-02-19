@@ -30,8 +30,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  font-size: 18px;
-  line-height: 1.5;
+  @include font(null, 18px, 1.5, null);
   color: var(--primary-white-color);
   background-color: rgba(33, 150, 243, 0.9);
   padding: 63px 24px;
@@ -49,10 +48,7 @@
   border-top: 0;
 }
 .project_name {
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 2;
-  letter-spacing: 0.06em;
+  @include font(700, 18px, 2, 0.06em);
   color: var(--title-text-color);
   margin-bottom: 4px;
 }

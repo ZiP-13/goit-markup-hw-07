@@ -18,6 +18,7 @@
 }
 .features_title {
   margin-bottom: 10px;
+  @include font(700, null, 1.1, null);
   font-weight: 700;
   line-height: 1.1;
   text-transform: uppercase;

@@ -20,16 +20,13 @@
   border-radius: 0px 0px 4px 4px;
 }
 .team_name {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.1;
+  @include font(500, 16px, 1.1, null);
   text-align: center;
   color: var(--title-text-color);
   margin-bottom: 10px;
 }
 .team_prof {
-  font-size: 16px;
-  line-height: 1.1;
+  @include font(null, 16px, 1.1, null);
   text-align: center;
   margin-bottom: 16px;
 }

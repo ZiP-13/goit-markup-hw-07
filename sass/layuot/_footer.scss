@@ -42,6 +42,7 @@
 .bottom-text {
   margin-bottom: 20px;
   text-transform: uppercase;
+  @include font(700, null, 1.14, null);
   font-weight: 700;
   line-height: 1.14;
   color: var(--primary-white-color);
