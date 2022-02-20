@@ -11,10 +11,3 @@
   --icons-color: #afb1b8;
   --card-gap: 30px;
 }
-
-@mixin font($fw, $fs, $lh, $ls) {
-  font-weight: $fw;
-  font-size: $fs;
-  line-height: $lh;
-  letter-spacing: $ls;
-}

@@ -3,22 +3,11 @@
   padding-top: 60px;
   padding-bottom: 60px;
 }
-.footer-container {
-  display: flex;
-  align-items: baseline;
-}
+
 .footer-wrap {
   margin-right: 70px;
 }
-.logo-footer {
-  display: flex;
-  color: var(--accent-color);
-  margin-bottom: 20px;
-}
 
-.logo--light-color {
-  color: var(--primary-white-color);
-}
 .address__item:not(:last-child) {
   margin-bottom: 9px;
 }

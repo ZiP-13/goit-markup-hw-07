@@ -3,3 +3,20 @@
   @include font(700, 26px, 1.1, 0.03em);
   text-decoration: none;
 }
+.logo-header {
+  color: var(--accent-color);
+  margin-right: 93px;
+  padding: 24px 0;
+}
+.logo--dark-color {
+  color: var(--title-text-color);
+}
+.logo-footer {
+  display: flex;
+  color: var(--accent-color);
+  margin-bottom: 20px;
+}
+
+.logo--light-color {
+  color: var(--primary-white-color);
+}
